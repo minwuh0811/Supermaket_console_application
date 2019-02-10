@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d524139b-16f5-4353-888a-10910809d0fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/resources/getIntLargerThanLengthReturnsZero.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/resources/getIntStringReturnsZero.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Customer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Customer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/CustomerRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/CustomerRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/File.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Order.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Order.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Order_Search.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Order_Search.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projektuppgift.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projektuppgift.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CustomerRegister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fruit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Order.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Order.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Order_Search.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Order_Search.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Orders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductHem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductHem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product_ENUM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vegetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CustomerRegisterTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="493">
+              <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
               <folding>
                 <element signature="e#10041#10540#0" />
                 <element signature="e#10622#11299#0" />
@@ -125,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Order_Search.text">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -190,8 +158,8 @@
         <option value="$PROJECT_DIR$/src/Storage.java" />
         <option value="$PROJECT_DIR$/src/ListStorage.java" />
         <option value="$PROJECT_DIR$/src/Order_Search.text" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/CustomerRegister.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -364,8 +332,16 @@
       <workItem from="1549622414238" duration="13000" />
       <workItem from="1549623203595" duration="81000" />
       <workItem from="1549665787453" duration="3843000" />
-      <workItem from="1549747907085" duration="20596000" />
+      <workItem from="1549747907085" duration="21178000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1549768858211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549768858211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -401,7 +377,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150684000" />
+    <option name="totallyTimeSpent" value="151266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -413,7 +389,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" weight="0.31466964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -424,7 +400,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3045326" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.3243626" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32362822" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32362822" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -466,6 +442,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -477,7 +457,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>110</line>
+          <line>111</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -647,28 +627,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Order.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="214" column="127" selection-start-line="214" selection-start-column="127" selection-end-line="214" selection-end-column="127" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#10041#10540#0" />
-            <element signature="e#10622#11299#0" />
-            <element signature="e#11304#11551#0" />
-            <element signature="e#11556#11833#0" />
           </folding>
         </state>
       </provider>
@@ -683,8 +647,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Order.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Order_Search.text">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <folding>
+            <element signature="e#10041#10540#0" />
+            <element signature="e#10622#11299#0" />
+            <element signature="e#11304#11551#0" />
+            <element signature="e#11556#11833#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

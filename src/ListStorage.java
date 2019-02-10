@@ -28,7 +28,7 @@ public class ListStorage implements Storage {
                      new ObjectInputStream(new BufferedInputStream(new FileInputStream(file_Customer)))) {
             customers = (ArrayList<Customer>) in.readObject();
         } catch (FileNotFoundException e) {
-            //On first start you will end up here. No file available.
+
         } catch (IOException e) {
 
         } catch (ClassNotFoundException e) {
@@ -215,7 +215,6 @@ public class ListStorage implements Storage {
             sum+=ordersearches.get(i).getProducthem().getAmount()*ordersearches.get(i).getProducthem().getProduct().getPrices();
             text+="Product Name: "+ordersearches.get(i).getProducthem().getProduct().getProductname()+ "  Amount: "+ ordersearches.get(i).getProducthem().getAmount()
                     +"  Product Price: "+ ordersearches.get(i).getProducthem().getProduct().getPrices()+ '\n';
-
         }
         text+= "Total Payment: " + sum +'\n';
         WriteTextFile(file_OrderSearch,text);
@@ -253,9 +252,7 @@ public class ListStorage implements Storage {
     public Product findProduct(int input) {
 //        System.out.println(products.get(input));
         return products.get(input);
-
     }
-
 
     public void addOrder(Order order) {
         orders.add(order);
@@ -273,30 +270,7 @@ public class ListStorage implements Storage {
                 addOrderSearch(c);
             }
         }
-
-
     }
-
-//    public static ArrayList<String> readTextFileFromAbsolutePath(java.io.File file) {
-//        ArrayList<String> arraylist = new ArrayList();
-//        try {
-//            FileReader fileReader = new FileReader(file);
-//            Scanner scanner = new Scanner(fileReader);
-//            while (scanner.hasNext()) {
-//                String line = scanner.nextLine();
-////                System.out.println(line);
-//                arraylist.add(line);
-//            }
-//            scanner.close();// FileRead must have close()
-//
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        }
-//        return arraylist;
-//
-//    }
-//
-//
     public static void WriteTextFile(java.io.File file, String text) {
         try (FileWriter filewriter = new FileWriter(file)) {
             filewriter.write(text);
@@ -304,6 +278,5 @@ public class ListStorage implements Storage {
             e.printStackTrace();
         }
     }
-
 }
 
