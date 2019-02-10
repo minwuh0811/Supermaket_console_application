@@ -82,6 +82,7 @@ public class Main {
                     System.out.println("Enter Customer ID: ");
                     int ID=main.getInt(storage.customers.size());
                     storage.findOrder(ID);
+                    break;
                 case 4:
                     return;
             }
