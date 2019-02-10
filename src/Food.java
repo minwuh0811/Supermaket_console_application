@@ -3,7 +3,6 @@ public class Food extends Product{
     private String Unit="kr/kg";
 
     public Food(String productname,Double prices){
-        super();
         this.productname=productname;
         this.prices=prices;
     }

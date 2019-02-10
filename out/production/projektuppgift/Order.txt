@@ -1,78 +1,16 @@
-
-85d42ed6-7165-42da-8946-1f72cba01642
-Min Wu
-Cola
-16.5
-2.1
-2019-01-15
-
-85d42ed6-7165-42da-8946-1f72cba01642
-Min Wu
-Cake
-111.8
-1.5
-2019-07-21
-
-59113b31-80a8-48a4-bde5-45c1237a214c
-Bisheng Chen
-Sallad
-24.9
-2.5
-2018-11-15
-
-85d42ed6-7165-42da-8946-1f72cba01642
-Min Wu
-egg
-65.0
-2.0
-2019-01-21
-
-59113b31-80a8-48a4-bde5-45c1237a214c
-Bisheng Chen
-Cola
-16.5
-3.1
-2018-12-01
-
-b2816490-43b8-4eb7-ace0-b3480c589758
-Quan lili
-Apple
-34.9
-0.5
-2019-02-01
-
-85d42ed6-7165-42da-8946-1f72cba01642
-Min Wu
-Carrot
-19.9
-2.3
-2017.10.12
-
-85d42ed6-7165-42da-8946-1f72cba01642
-Min Wu
-Sallad
-24.9
-2.3
-2018-07-21
-
-85d42ed6-7165-42da-8946-1f72cba01642
-Min Wu
-Apple
-34.9
-1.0
-2019-01-18
-
-85d42ed6-7165-42da-8946-1f72cba01642
-Min Wu
-Apple
-34.9
-15.6
-2017-12-01
-
-85d42ed6-7165-42da-8946-1f72cba01642
-Min Wu
-Orange
-15.6
-2.4
-2019-01-07
-
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Apple  Amount: 1.5  Product Price: 24.9
+CustomerID: 2  Customer Name: Ria Chen
+  Product Name: Carrot  Amount: 0.5  Product Price: 7.8
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Carrot  Amount: 2.3  Product Price: 7.8
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Carrot  Amount: 2.7  Product Price: 7.8
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Orange  Amount: 1.0  Product Price: 9.9
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Apple  Amount: 1.5  Product Price: 24.9
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Orange  Amount: 1.5  Product Price: 9.9
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Orange  Amount: 2.1  Product Price: 9.9

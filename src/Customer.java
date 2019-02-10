@@ -1,29 +1,18 @@
-public class Customer {
-//    private static int count;
+import java.io.Serializable;
+
+public class Customer implements Serializable {
+    private static int count;
     private String name;
     private String City;
-    private String CustomerID;
-
-    public Customer(String CustomerID){
-        if (CustomerID==null) {
-            this.CustomerID=java.util.UUID.randomUUID().toString();
-        } else {this.CustomerID=CustomerID;}
-
-    }
+    private int CustomerID;
 
     public Customer(String name, String City) {
-            this(null);
-            this.name=name;
-            this.City=City;
-    }
-
-    public Customer(String name, String City,String CustomerID) {
-        this.CustomerID = CustomerID;
+        CustomerID=count++;
         this.name = name;
         this.City = City;
-
     }
-    public String getCustomerID() {
+
+    public int getCustomerID() {
         return CustomerID;
     }
 
@@ -43,6 +32,9 @@ public class Customer {
         City = city;
     }
 
+    public static void setCount(int count) {
+        Customer.count = count;
+    }
     @Override
     public String toString() {
         return "Customer{" +
@@ -51,7 +43,6 @@ public class Customer {
                 ", City='" + City + '\'' +
                 '}';
     }
-
 }
 
 

@@ -1,6 +1,6 @@
+import java.io.Serializable;
 
-
-public class Product {
+public class Product implements Serializable {
     protected String productname;
     protected double prices;
 
@@ -22,7 +22,7 @@ public class Product {
         this.prices = prices;
     }
 
-public enum Product_level{
+    public enum Product_level{
         Fruit,Food,Drink,Vegetable
 }
 

@@ -3,7 +3,6 @@ public class Fruit extends Product {
     private String Unit="kr/kg";
 
     public Fruit(String productname,Double prices){
-        super();
         this.productname=productname;
         this.prices=prices;
     }
@@ -28,6 +27,7 @@ public class Fruit extends Product {
     public String getProductname() {
         return super.productname;
     }
+
     @Override
     public double getPrices() {
         return super.prices;
