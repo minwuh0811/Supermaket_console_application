@@ -1,20 +1,18 @@
 CustomerID: 0  Customer Name: Min Wu
-  Product Name: Apple  Amount: 1.5  Product Price: 24.9
-CustomerID: 2  Customer Name: Ria Chen
-  Product Name: Carrot  Amount: 0.5  Product Price: 7.8
-CustomerID: 0  Customer Name: Min Wu
-  Product Name: Carrot  Amount: 2.3  Product Price: 7.8
-CustomerID: 0  Customer Name: Min Wu
-  Product Name: Carrot  Amount: 2.7  Product Price: 7.8
-CustomerID: 0  Customer Name: Min Wu
-  Product Name: Orange  Amount: 1.0  Product Price: 9.9
-CustomerID: 0  Customer Name: Min Wu
-  Product Name: Apple  Amount: 1.5  Product Price: 24.9
-CustomerID: 0  Customer Name: Min Wu
   Product Name: Orange  Amount: 1.5  Product Price: 9.9
 CustomerID: 0  Customer Name: Min Wu
+  Product Name: Sallad  Amount: 1.5  Product Price: 28.7
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Carrot  Amount: 0.8  Product Price: 19.9
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Cola  Amount: 3.9  Product Price: 25.9
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Milk  Amount: 19.8  Product Price: 10.8
+CustomerID: 1  Customer Name: Bisheng Chen
+  Product Name: Cola  Amount: 2.5  Product Price: 25.9
+CustomerID: 1  Customer Name: Bisheng Chen
+  Product Name: Milk  Amount: 2.0  Product Price: 10.8
+CustomerID: 0  Customer Name: Min Wu
   Product Name: Orange  Amount: 2.1  Product Price: 9.9
-CustomerID: 2  Customer Name: Ria Chen
-  Product Name: Bread  Amount: 1.5  Product Price: 35.6
-CustomerID: 2  Customer Name: Ria Chen
-  Product Name: Cola  Amount: 0.7  Product Price: 10.6
+CustomerID: 0  Customer Name: Min Wu
+  Product Name: Orange  Amount: 1.0  Product Price: 9.9

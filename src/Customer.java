@@ -11,6 +11,7 @@ public class Customer implements Serializable {
         this.name = name;
         this.City = City;
     }
+    public Customer(){}
 
     public int getCustomerID() {
         return CustomerID;

@@ -1,12 +1,15 @@
 0
 Min Wu
-Shanghai
+Göteborg
 1
 Bisheng Chen
-Göteborg
+Örebro
 2
 Ria Chen
-Göteborg
+Shanghai
 3
 Richelle Chen
+Wuhan
+4
+Martin
 Göteborg
