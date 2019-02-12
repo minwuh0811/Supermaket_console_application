@@ -82,6 +82,7 @@ public class ListStorage_Order implements Storage_Order {
         String file=file_name+"_Search.txt";
         path = path + java.io.File.separator + file;
         java.io.File file_OrderSearch = new java.io.File(path);
+        System.out.println(path);
         int length=ordersearches.size();
         double sum=0;
         String text="CustomerID: " + ordersearches.get(0).getCustomer().getCustomerID()
@@ -93,7 +94,7 @@ public class ListStorage_Order implements Storage_Order {
                     +"  Product Price: "+ ordersearches.get(i).getProducthem().getProduct().getPrices()+ '\n';
         }
         text+= "Total Payment: " + sum +'\n';
-        try (FileWriter filewriter = new FileWriter(file)) {
+        try (FileWriter filewriter = new FileWriter(file_OrderSearch)) {
             Repository repository=new Repository_Class(filewriter);
             Main main=new Main(repository);
             main.WriteTextFile(text);
