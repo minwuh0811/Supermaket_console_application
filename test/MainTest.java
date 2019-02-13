@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
-import java.lang.module.ResolutionException;
+import java.util.ArrayList;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
@@ -134,5 +134,43 @@ class MainTest {
         }
     }
 
+    Repository mock=mock(Repository.class);
+    @Test
+    void writeTextFile() {
+            String path = System.getProperty("user.home") //C:\Users\wumin_000\Desktop\testare\Utveckling av applikationer och tjänster\exerciese\projektuppgift\test\resources
+                    + java.io.File.separator + "Desktop"
+                    + java.io.File.separator + "testare"
+                    + java.io.File.separator + "Utveckling av applikationer och tjänster"
+                    + java.io.File.separator + "exerciese"
+                    + java.io.File.separator + "projektuppgift"
+                    + java.io.File.separator + "test"
+                    + java.io.File.separator + "resources"
+                    + java.io.File.separator + "writeTextFile.txt";
+            java.io.File file = new java.io.File(path);
+            try (FileWriter filewriter = new FileWriter(file)) {
+                Main.WriteTextFile(mock, "the expected test");
+                verify(mock).write( "the expected test");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    Printer mock_printer =mock(Printer.class);
+    @Test
+    void printCustomer() {
+        Customer customer=new Customer("Min Wu", "Shanghai");
+        ArrayList<Customer> customers=new ArrayList<>();
+        customers.add(customer);
+        Main.PrintCustomer(mock_printer, customers);
+        verify(mock_printer).println_customer(customers);
+    }
 
+    @Test
+    void printProduct() {
+        Product product=new Drink("Milk", 10.5);
+        ArrayList<Product> products=new ArrayList<>();
+        products.add(product);
+        Main.PrintProduct(mock_printer, products);
+        verify(mock_printer).println_product(products);
+
+    }
 }

@@ -1,7 +1,4 @@
-import java.awt.geom.IllegalPathStateException;
-import java.io.*;
 import java.util.*;
-import java.util.concurrent.atomic.DoubleAccumulator;
 
 public class Main {
     private static Scanner sc;
@@ -17,6 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         Main main = new Main(new Scanner(System.in));
+        Printer pc=new printerClass();
         String path = System.getProperty("user.home")
                 + java.io.File.separator + "Desktop"
                 + java.io.File.separator + "testare"
@@ -74,11 +72,11 @@ public class Main {
                     }
                     break;
                 case 2:
-                    storage_customer.PrintCustomer();
+                    PrintCustomer(pc, storage_customer.customers);
                     System.out.println("Enter Customer ID: ");
                     int customerID = Main.getInt(storage_customer.customers.size());
                     Customer customer_find = storage_customer.findCustomer(customerID);
-                    storage_product.PrintProduct();
+                    PrintProduct(pc,storage_product.products);
                     System.out.println("Enter Product: ");
                     int input = Main.getInt(storage_product.products.size());
                     Product product_find = storage_product.findProduct(input);
@@ -89,7 +87,7 @@ public class Main {
                     storage_order.addOrder(order);
                     break;
                 case 3:
-                    storage_customer.PrintCustomer();
+                    PrintCustomer(pc,storage_customer.customers);
                     System.out.println("Enter Customer ID: ");
                     int ID = main.getInt(storage_customer.customers.size());
                     storage_order.findOrder(ID);
@@ -167,9 +165,16 @@ public class Main {
     }
 
     public static void WriteTextFile(Repository repository, String text) {
-            repository.write(text);
+        repository.write(text);
     }
 
+
+    public static void PrintCustomer(Printer printer, ArrayList<Customer> customers) {
+            printer.println_customer(customers);
+    }
+    public static void PrintProduct(Printer printer, ArrayList<Product> products){
+        printer.println_product(products);
+    }
 }
 
 

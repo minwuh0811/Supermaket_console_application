@@ -78,14 +78,6 @@ public class ListStorage_Customer implements Storage_Customer {
         close();
     }
 
-    public void PrintCustomer() {
-        int length=customers.size();
-        for (int i=0; i< length; i++) {
-            System.out.println("CustomerID: "+ customers.get(i).getCustomerID()
-                    + "  Customer Name: " +customers.get(i).getName()
-                    + "  Customer City "+customers.get(i).getCity());
-        }
-    }
 
     public Customer findCustomer(int customerID){
 
