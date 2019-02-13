@@ -5,11 +5,6 @@ import java.util.concurrent.atomic.DoubleAccumulator;
 
 public class Main {
     private static Scanner sc;
-    private static Repository out;
-
-    public static void setOut(Repository out) {
-        Main.out = out;
-    }
 
     public static void setSc(Scanner sc) {
         Main.sc = sc;
@@ -19,7 +14,6 @@ public class Main {
         this.sc = sc;
     }
 
-    public Main(Repository out){this.out=out;}
 
     public static void main(String[] args) {
         Main main = new Main(new Scanner(System.in));
@@ -172,8 +166,8 @@ public class Main {
         return sc.nextLine();
     }
 
-    public static void WriteTextFile(String text) {
-            out.write(text);
+    public static void WriteTextFile(Repository repository, String text) {
+            repository.write(text);
     }
 
 }

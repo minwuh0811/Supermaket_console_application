@@ -15,12 +15,10 @@ import static org.mockito.Mockito.verify;
 
 class Repository_ClassTest  {
     Repository mock=mock(Repository.class);
-    Main main=new Main(mock);
 
 
     @Test
     void writeTest() {
-        main.setOut(mock);
             String path = System.getProperty("user.home") //C:\Users\wumin_000\Desktop\testare\Utveckling av applikationer och tjänster\exerciese\projektuppgift\test\resources
                     + java.io.File.separator + "Desktop"
                     + java.io.File.separator + "testare"
@@ -32,7 +30,7 @@ class Repository_ClassTest  {
                     + java.io.File.separator + "writeTextFile.txt";
             java.io.File file = new java.io.File(path);
             try (FileWriter filewriter = new FileWriter(file)) {
-                main.WriteTextFile( "the expected test");
+                Main.WriteTextFile(mock, "the expected test");
                 verify(mock).write( "the expected test");
             } catch (IOException e) {
                e.printStackTrace();

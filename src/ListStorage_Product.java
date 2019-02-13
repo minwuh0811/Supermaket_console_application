@@ -45,8 +45,7 @@ public class ListStorage_Product implements Storage_Product {
         }
         try (FileWriter filewriter = new FileWriter(file)) {
             Repository repository=new Repository_Class(filewriter);
-            Main main=new Main(repository);
-            main.WriteTextFile(text);
+            Main.WriteTextFile(repository,text);
         } catch (IOException e) {
             e.printStackTrace();
         }
