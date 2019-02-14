@@ -3,8 +3,7 @@ public class Drink extends Product {
     private String Unit="kr/liter";
 
     public Drink(String productname,Double prices){
-        this.productname=productname;
-        this.prices=prices;
+            super(productname,prices);
     }
 
     public String getProducttype() {
@@ -23,22 +22,5 @@ public class Drink extends Product {
         Unit = unit;
     }
 
-    @Override
-    public String getProductname() {
-        return super.productname;
-    }
-    @Override
-    public double getPrices() {
-        return super.prices;
-    }
 
-    @Override
-    public String toString() {
-        return "Drink{" +
-                "producttype='" + producttype + '\'' +
-                ", Unit='" + Unit + '\'' +
-                ", productname='" + productname + '\'' +
-                ", prices=" + prices +
-                '}';
-    }
 }

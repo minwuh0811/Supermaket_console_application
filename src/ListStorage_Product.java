@@ -19,9 +19,10 @@ public class ListStorage_Product implements Storage_Product {
                      new ObjectInputStream(new BufferedInputStream(new FileInputStream(file_Product)))) {
             products = (ArrayList<Product>) in.readObject();
         } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
             //On first start you will end up here. No file available.
         } catch (IOException e) {
-
+            System.out.println(e.getMessage());
         } catch (ClassNotFoundException e) {
 
         }
@@ -53,7 +54,7 @@ public class ListStorage_Product implements Storage_Product {
                      new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(file_Product)))) {
             out.writeObject(products);
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            e.getMessage();
         } catch (IOException e) {
             e.printStackTrace();
         }

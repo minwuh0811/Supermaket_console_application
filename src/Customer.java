@@ -5,6 +5,7 @@ public class Customer implements Serializable {
     private String name;
     private String City;
     private int CustomerID;
+    public static final long serialVersionUID = -2363428822087675831L;
 
     public Customer(String name, String City) {
         CustomerID=count++;
@@ -36,14 +37,7 @@ public class Customer implements Serializable {
     public static void setCount(int count) {
         Customer.count = count;
     }
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "CustomerID='" + CustomerID + '\'' +
-                ", name='" + name + '\'' +
-                ", City='" + City + '\'' +
-                '}';
-    }
+
 }
 
 

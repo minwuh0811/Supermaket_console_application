@@ -28,7 +28,7 @@ public class ListStorage_Order implements Storage_Order {
         } catch (FileNotFoundException e) {
             //On first start you will end up here. No file available.
         } catch (IOException e) {
-
+            System.out.println(e.getMessage());
         } catch (ClassNotFoundException e) {
 
         }
@@ -46,13 +46,13 @@ public class ListStorage_Order implements Storage_Order {
         String path_txt = path + java.io.File.separator + file2;
         java.io.File file = new java.io.File(path_txt);
         int length=orders.size();
-        String text="";
+        String text="CustomerID" +'\t'+ "Customer Name" +'\t' + "Product Name" +'\t' + "Amount" +'\t' + "Product Price" +'\t'+'\n';
         for (int i=0; i<length; i++) {
-            text+="CustomerID: " + orders.get(i).getCustomer().getCustomerID()
-                    + "  Customer Name: " + orders.get(i).getCustomer().getName()+ '\n'
-                    + "  Product Name: "+orders.get(i).getProducthem().getProduct().getProductname()
-                    + "  Amount: "+ orders.get(i).getProducthem().getAmount()
-                    +"  Product Price: "+ orders.get(i).getProducthem().getProduct().getPrices()+ '\n';
+            text+="CustomerID: " + orders.get(i).getCustomer().getCustomerID() + "  "
+           + "Customer Name:  " + orders.get(i).getCustomer().getName()+ "  "
+            + "Product Name: "        +orders.get(i).getProducthem().getProduct().getProductname() + "  "
+             + "Amount: "      + orders.get(i).getProducthem().getAmount() + "  "
+               +"Product Price:  "     + orders.get(i).getProducthem().getProduct().getPrices()+'\n';
         }
         try (FileWriter filewriter = new FileWriter(file)) {
             Repository repository=new Repository_Class(filewriter);
@@ -103,6 +103,7 @@ public class ListStorage_Order implements Storage_Order {
     public void addOrderSearch(Order order) {
         ordersearches.add(order);
         saveToOrderSearchFile(file_name,path);
+
     }
     public ArrayList<Order> findOrder(int customerID){
         for (Order c : orders ) {

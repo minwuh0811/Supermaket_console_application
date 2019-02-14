@@ -30,8 +30,8 @@ public class Main {
         int tal = -1;
         while (true) {
             do {
-                System.out.println("What do you want to do? Type 0: CustomerRegister, Type 1: Add New product, Type 2 Shoppingcart, Type 3: Check Customer_shoppingcart, Type 4: Quit");
-                tal = main.getInt(5);
+                System.out.println("What do you want to do? Type 0: CustomerRegister, Type 1: Add New product, Type 2 Shoppingcart, Type 3: Check Customer_shoppingcart, Type 4: CustomerList, Type 5: ProductList, Type 6: Quit");
+                tal = main.getInt(7);
             } while (tal == -1);
             String name1 = main.getString();
             switch (tal) {
@@ -93,6 +93,15 @@ public class Main {
                     storage_order.findOrder(ID);
                     break;
                 case 4:
+                    PrintCustomer(pc, storage_customer.customers);
+                    break;
+                case 5:
+                    PrintProduct(pc,storage_product.products);
+                    break;
+                case 6:
+                    return;
+                default:
+                    System.out.println("Didn't get any Number");
                     return;
             }
         }

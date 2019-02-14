@@ -1,10 +1,10 @@
 public class Fruit extends Product {
     private String producttype="Fruit";
     private String Unit="kr/kg";
+    public static final long serialVersionUID =-6772929915109082697L;
 
     public Fruit(String productname,Double prices){
-        this.productname=productname;
-        this.prices=prices;
+            super(productname,prices);
     }
 
     public String getProducttype() {
@@ -23,23 +23,4 @@ public class Fruit extends Product {
         Unit = unit;
     }
 
-    @Override
-    public String getProductname() {
-        return super.productname;
-    }
-
-    @Override
-    public double getPrices() {
-        return super.prices;
-    }
-
-    @Override
-    public String toString() {
-        return "Fruit{" +
-                "producttype='" + producttype + '\'' +
-                ", Unit='" + Unit + '\'' +
-                ", productname='" + productname + '\'' +
-                ", prices=" + prices +
-                '}';
-    }
 }

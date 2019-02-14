@@ -24,7 +24,7 @@ public class ListStorage_Customer implements Storage_Customer {
         } catch (FileNotFoundException e) {
 
         } catch (IOException e) {
-
+            System.out.println(e.getMessage());
         } catch (ClassNotFoundException e) {
 
         }
@@ -51,7 +51,7 @@ public class ListStorage_Customer implements Storage_Customer {
         String text="";
         for (int i=0; i<length; i++) {
             text+="" + customers.get(i).getCustomerID() + '\n'
-            + customers.get(i).getName() + '\n'
+                    + customers.get(i).getName() + '\n'
                     +customers.get(i).getCity() +'\n';
         }
 
@@ -88,4 +88,3 @@ public class ListStorage_Customer implements Storage_Customer {
         return new Customer("NoOne","NoPlace");
     }
 }
-

@@ -3,6 +3,7 @@ import java.io.Serializable;
 public class ProductHem extends Product implements Serializable {
     private Product product;
     private double amount;
+    public static final long serialVersionUID =5986879614059456962L;
 
     public double getAmount() {
         return amount;
@@ -25,11 +26,4 @@ public class ProductHem extends Product implements Serializable {
         return product;
     }
 
-    @Override
-    public String toString() {
-        return "ProductHem{" +
-                "product=" + productname +
-                ", amount=" + amount +
-                '}';
-    }
 }

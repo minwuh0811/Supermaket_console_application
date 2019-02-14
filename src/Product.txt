@@ -12,3 +12,5 @@ Milk
 10.8
 Water
 9.8
+Beer
+10.7

@@ -3,8 +3,13 @@ import java.io.Serializable;
 public class Product implements Serializable {
     protected String productname;
     protected double prices;
-
+    public static final long serialVersionUID =3977164360091333385L;
     public Product(){}
+
+    public Product(String productname,double prices) {
+        this.productname=productname;
+        this.prices=prices;
+    }
 
     public String getProductname() {
         return productname;
@@ -22,9 +27,7 @@ public class Product implements Serializable {
         this.prices = prices;
     }
 
-    public enum Product_level{
-        Fruit,Food,Drink,Vegetable
-}
+
 
  }
 

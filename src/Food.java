@@ -3,8 +3,7 @@ public class Food extends Product{
     private String Unit="kr/kg";
 
     public Food(String productname,Double prices){
-        this.productname=productname;
-        this.prices=prices;
+        super(productname,prices);
     }
 
     public String getProducttype() {
@@ -22,21 +21,5 @@ public class Food extends Product{
     public void setUnit(String unit) {
         Unit = unit;
     }
-    @Override
-    public String getProductname() {
-        return super.productname;
-    }
-    @Override
-    public double getPrices() {
-        return super.prices;
-    }
-    @Override
-    public String toString() {
-        return "Food{" +
-                "producttype='" + producttype + '\'' +
-                ", Unit='" + Unit + '\'' +
-                ", productname='" + productname + '\'' +
-                ", prices=" + prices +
-                '}';
-    }
+
 }
