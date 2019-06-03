@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="669f74fb-8a83-423c-8f29-4102e3b676a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_5_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_2_0_2_beta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_easymock_easymock_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_core_2_23_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Drink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Drink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Fruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Product.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Product.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projektuppgift/Vegetable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projektuppgift/Vegetable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projektuppgift.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projektuppgift.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vegetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vegetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/AllTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Repository_ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Repository_ClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/resources/Customer_test.bin" beforeDir="false" afterPath="$PROJECT_DIR$/test/resources/Customer_test.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/resources/Customer_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/resources/Customer_test.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/projektuppgift$AllTest.ic" NAME="AllTest Coverage Results" MODIFIED="1559568874351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/projektuppgift$AllTest.ic" NAME="AllTest Coverage Results" MODIFIED="1559595950002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="38" />
@@ -61,27 +38,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.0-M1/junit-jupiter-engine-5.5.0-M1.jar!/org/junit/jupiter/engine/execution/JupiterEngineExecutionContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="e#2580#2581#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-M1/junit-platform-commons-1.5.0-M1.jar!/org/junit/platform/commons/util/BlacklistedExceptions.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.0-M1/junit-platform-engine-1.5.0-M1.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
@@ -99,11 +55,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notice">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="177" selection-start-line="177" selection-end-line="177" />
+              <folding>
+                <element signature="e#7064#7065#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Drink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -178,6 +155,11 @@
             <path>
               <item name="projektuppgift" type="b2602c69:ProjectViewProjectNode" />
               <item name="projektuppgift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projektuppgift" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektuppgift" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projektuppgift" type="b2602c69:ProjectViewProjectNode" />
@@ -286,8 +268,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559560573131</updated>
-      <workItem from="1559560588465" duration="9053000" />
+      <workItem from="1559560588465" duration="9438000" />
     </task>
+    <task id="LOCAL-00001" summary="updated serialVersionUID in several Objects and add file for project structure">
+      <created>1559570060820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559570060820</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -323,7 +313,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9053000" />
+    <option name="totallyTimeSpent" value="9438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,7 +341,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -368,6 +358,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated test file 71% classes coverage and 58% lines covered" />
+    <MESSAGE value="updated serialVersionUID in several Objects" />
+    <MESSAGE value="updated serialVersionUID in several Objects and add file for project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated serialVersionUID in several Objects and add file for project structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -493,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Drink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-M1/junit-platform-commons-1.5.0-M1.jar!/org/junit/platform/commons/util/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -553,16 +542,6 @@
           <folding>
             <element signature="e#173#174#0" expanded="true" />
             <element signature="e#201#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-          <folding>
-            <element signature="e#7064#7065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -766,6 +745,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+          <folding>
+            <element signature="e#7064#7065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Drink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
         </state>
       </provider>
     </entry>
