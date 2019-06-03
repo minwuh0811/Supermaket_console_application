@@ -15,8 +15,8 @@ public class Main {
     public static void main(String[] args) {
         Main main = new Main(new Scanner(System.in));
         Printer pc=new printerClass();
-        String path = System.getProperty("user.home")
-                + java.io.File.separator + "Desktop"
+//        String path = System.getProperty("user.home")
+        String path= "D:"
                 + java.io.File.separator + "testare"
                 + java.io.File.separator + "Utveckling av applikationer och tjänster"
                 + java.io.File.separator + "exerciese"

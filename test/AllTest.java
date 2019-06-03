@@ -12,14 +12,21 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
 class AllTest {
-    String path = System.getProperty("user.home") //C:\Users\wumin_000\Desktop\testare\Utveckling av applikationer och tjänster\exerciese\projektuppgift\test\resources
-            + java.io.File.separator + "Desktop"
-            + java.io.File.separator + "testare"
-            + java.io.File.separator + "Utveckling av applikationer och tjänster"
-            + java.io.File.separator + "exerciese"
-            + java.io.File.separator + "projektuppgift"
-            + java.io.File.separator + "test"
-            + java.io.File.separator + "resources";
+//    String path = System.getProperty("user.home") //C:\Users\wumin_000\Desktop\testare\Utveckling av applikationer och tjänster\exerciese\projektuppgift\test\resources
+//            + java.io.File.separator + "Desktop"
+//            + java.io.File.separator + "testare"
+//            + java.io.File.separator + "Utveckling av applikationer och tjänster"
+//            + java.io.File.separator + "exerciese"
+//            + java.io.File.separator + "projektuppgift"
+//            + java.io.File.separator + "test"
+//            + java.io.File.separator + "resources";
+    String path="D:"
+        + java.io.File.separator + "testare"
+        + java.io.File.separator + "Utveckling av applikationer och tjänster"
+        + java.io.File.separator + "exerciese"
+        + java.io.File.separator + "projektuppgift"
+        + java.io.File.separator + "test"
+        + java.io.File.separator + "resources";
 
     @Test
     void addCustomer() {
@@ -62,7 +69,7 @@ class AllTest {
     void findOrder() {
         ListStorage_Order storage_order = new ListStorage_Order("Order_test",path);
         ArrayList<Order> orderresearch_result =storage_order.findOrder(0);
-        assertEquals(8,orderresearch_result.size());
+        assertEquals(9,orderresearch_result.size());
     }
     @Test
     void addProduct() {

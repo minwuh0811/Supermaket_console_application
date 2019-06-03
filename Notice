@@ -1,0 +1,8 @@
+Project Structure
+
+add library -org.junit.jupiter:junit-jupiter:5.5.0-M1
+            -org.mockito:mockito-all:2.0.2-beta
+add resources folder added to test_resource
+
+
+71% classes coverage and 58% lines covered

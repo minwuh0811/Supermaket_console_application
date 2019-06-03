@@ -1,6 +1,7 @@
 public class Drink extends Product {
     private String producttype="Drink";
     private String Unit="kr/liter";
+    public static final long serialVersionUID =-244024137569869940L;
 
     public Drink(String productname,Double prices){
             super(productname,prices);
